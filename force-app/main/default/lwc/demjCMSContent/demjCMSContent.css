@@ -1,0 +1,44 @@
+.container {
+  width: 639px;
+  margin: auto;
+}
+
+.card-container {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.card-container img {
+  height: 300px;
+}
+
+.card-sizer {
+  margin: 20px;
+  width: 45%;
+}
+
+.title {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.description {
+  display: block;
+  text-align: center;
+}
+
+.footer {
+  min-height: 100px;
+}
+
+.centering {
+  text-align: center;
+}
