@@ -151,7 +151,7 @@ LWCでは CSS、HTML、JS、メーターデータのファイルで分かれて�
 @track datas = []; // レンダリングする際に必要な変数
 @track loaded = false; // 非同期処理を待つ間にローディング画面を表示するための変数
 ```
-
+- loadRecordメソッドのwire
 ```JavaScript
 /**
  *  ApexのinitMethodを非同期処理で呼び込む
@@ -165,7 +165,7 @@ loadRecord({ error, data }) {
   }
 }
 ```
-
+- populateDataメソッド
 ```JavaScript
 /**
  * レンダリングする際に必要なデータを生成
