@@ -102,8 +102,8 @@ getAllManagedContent(String communityId, Integer pageParam, Integer pageSize, St
 - managedContentType: 一番重要なパラメータで、コンテンツの種類名を指摘します
 - showAbsoluteUrl: 取得するコンテンツのURLが絶対URLか相対かを指摘することができます。外部サービスやコミュニティーページには絶対URLを取得した方が無難です。
 
-コンテンツの種類名はSalesforce上で拝見することができないので、メーターデータを覗きながら取得しないといけません。以下の画像（GIF）をご参考ください。
-![メータデータ](./contenttype-metadata.gif)
+コンテンツの種類名はSalesforce上で拝見することができないので、メターデータを覗きながら取得しないといけません。以下の画像（GIF）をご参考ください。
+![メタデータ](./contenttype-metadata.gif)
 
 ```Apex
 results = contentList.items;
@@ -139,7 +139,7 @@ public static String[] getUserWebinar() {
 
 ### LWCコンポーネント詳細説明
 
-LWCでは CSS、HTML、JS、メーターデータのファイルで分かれてます。今回必要な処理はHTMLとJSにありますので、CSSとメータデータの説明はスキップします。
+LWCでは CSS、HTML、JS、メターデータのファイルで分かれてます。今回必要な処理はHTMLとJSにありますので、CSSとメタデータの説明はスキップします。
 
 #### demjCMSContent.js
 
